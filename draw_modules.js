@@ -14,7 +14,9 @@ const draw_modules = module.render((module) => {
     let y = module.render(module.Math(y))
     module.draw = [
         lines = x,y,
+        lines_copy = x,y,
         render.line = 1/2
+        render.lines_copy = 1/2
     ]
 })
 
